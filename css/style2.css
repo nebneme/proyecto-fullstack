@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+
+}
+nav{
+    padding-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.281);
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+}
+nav li{
+    padding-top: 5px;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18;
+    font-weight: 500;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+
+}
+hr{
+    border: 0.5px solid white;
+    width: 90%;
+    margin: auto;
+}
+.ventas{
+    width:100%;
+    height:70dvh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    
+}
+.moderno{
+    width:100%;
+    height:50dvh;
+    background-color: rgb(128, 0, 79);
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.tradicional{
+    width:100%;
+    height:50dvh;
+    background-color: rgb(0, 30, 128);
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.institucional{
+    width:100%;
+    height:50dvh;
+    background-color: rgb(109, 128, 0);
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    height: 5dvh;
+    width: auto;
+    display:flex;
+    background-color: rgba(255, 255, 255, 0.11);
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    
+    
+}
+footer img{
+    height: 30px;
+    width: auto; 
+    padding-inline: 10px 10px;
+    
+
+}
+footer .parrafo{
+    font-size: 20px;
+    color: white;
+    margin-top: -0.5%;
+
+}
+
+footer .redes{
+    justify-content: center;
+    padding-left: 72%;
+    margin-top: 0.5%;
+}
+.vsubtotal
+{  
+    width: 100%;
+    height: 100%;
+    color: blue;
+    text-align: center;
+    font-size: 120px;
+    justify-content: center;
+}
+.titular{
+    padding-top:px;
+    width: 100%;
+    height:10%;
+    background-color: blueviolet;
+    background-image: url(/fondoletras.png);
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+.titular H4{
+    font-size: 50px;
+
+}
