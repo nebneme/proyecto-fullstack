@@ -55,7 +55,7 @@ nav li a{
     height:auto;
     width: 300px; 
     padding-top: 100px;
-   
+
 }
 #contenido .carrusel{
     height: 65dvh;
@@ -66,7 +66,7 @@ nav li a{
 }
 
 #contenido .carrusel .fondo{
- 
+
     margin-top: 10%;
     background-image: url("../imagenes/textura.png");
     width: 100%;
@@ -115,8 +115,6 @@ footer img{
     height: 30px;
     width: auto; 
     padding-inline: 10px 10px;
-    
-
 }
 footer .parrafo{
     font-size: 15px;
@@ -129,4 +127,61 @@ footer .redes{
     justify-content: center;
     padding-left: 72%;
     margin-top: 0.5%;
+}
+@media   (max-width: 1420px)  {
+    #contenido .carrusel .fondo div{
+        margin: 1%;
+    }
+    
+    nav li{ 
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 100px;
+    font-size: 15;
+    }
+    footer .redes{
+        justify-content: center;
+        padding-left: 60%;
+        margin-top: 0.5%;
+    }
+}
+@media   (max-width: 900px)  {
+    #contenido .carrusel .fondo div{
+        margin: 1%;
+    }
+    
+    nav li{ 
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+    margin-right: 45px;
+    }
+    footer .redes{
+        justify-content: center;
+        padding-left: 40%;
+        margin-top: 0.1%;
+    }
+    #contenido .carrusel .fondo div{
+    margin:20px;
+    width: 256px;
+    height: 216px; 
+    
+    }
+    #contenido .carrusel .fondo {
+    display: inline-block;  
+    background-image: none; 
+    } 
+    html {
+    min-height: 100%;
+    position: relative;
+    }
+    nav{
+    height: 60px;
+    }  
+    #contenido .carrusel{
+    height: 100dvh;
+    }
+
 }
