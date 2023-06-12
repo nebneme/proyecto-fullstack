@@ -43,7 +43,7 @@ nav li a{
     justify-content: center;
 
 }
-
+/*contenedor del archivo de POWERBI*/
 #contenido .forma{
     width: 100%;
     height: 50px;
@@ -80,6 +80,7 @@ footer .redes{
     padding-left: 72%;
     margin-top: 0.5%;
 }
+/*responsive desing*/
 @media   (max-width: 1420px)  {
     #contenido .carrusel .fondo div{
         margin: 1%;

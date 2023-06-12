@@ -49,6 +49,8 @@ nav li a{
     align-items: center;
     text-align: -webkit-center;
 }
+
+/*propiedades del contenedor logo de polimes*/
 #logo{
     width: 100%;
     height: 200px;
@@ -60,7 +62,7 @@ nav li a{
     height: 70px;
     padding-top: 80px;
 }
-
+/*fondo de formas rojas */
 .titular{
     width: 100%;
     height:80px;
@@ -91,7 +93,7 @@ H3{
     color: #5C5B5B;
     letter-spacing: 2px;
 }
-
+/*contenedor principal para incluir todas las categorias de productos */
 #categorias{
     width: 100%;
     height: 1700px;
@@ -100,7 +102,7 @@ H3{
     justify-content: center;
 
 }
-
+/*contendor de cada categoria de le empresa */
 #categorias .contenedor_categoria{
     width: 70%;
     height: 140px;
@@ -118,6 +120,7 @@ H3{
     -moz-box-shadow: 5px 14px 13px -1px rgba(0,0,0,0.18);
     
 }
+/*propiedades de la imagen que esta dentro del contendor de las categorias*/
 #categorias .contenedor_categoria .imagen_categoria img{
     width: absolute;
     height: 100%;
@@ -126,13 +129,15 @@ H3{
     background-repeat: no-repeat;
 
     }
+
+    /*contenedor de nombre de cada categoria*/
 #categorias .contenedor_categoria .info{
         display: flex;
         width: 90%;
         height: 100%;
         place-items: center;
     }
-
+/*nombre de cada categoria*/
 #categorias .contenedor_categoria h4{
     font-size: 40px;
     color:#5C5B5B;
@@ -140,6 +145,8 @@ H3{
     font-family: 'Montserrat', sans-serif;
     margin-left: 1%;
 }
+
+/*propiedades del porcentaje de todas las categorias */
 .porcentaje{
     font-size: 80px;
     color:#5C5B5B;
@@ -187,6 +194,7 @@ footer .redes{
     padding-left: 72%;
     margin-top: 0.5%;
 }
+/*responsive desing */
 @media   (max-width: 1420px)  {
     
     nav li{ 
